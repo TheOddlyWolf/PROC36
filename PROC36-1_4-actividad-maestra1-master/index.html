@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zen</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+     const firebaseConfig = {
+  apiKey: "AIzaSyDaz-hIN1PqzZLYQiN1KzkSPvuVz3YVt9g",
+  authDomain: "juego-de-auto-multijugad-3ad7b.firebaseapp.com",
+  databaseURL: "https://juego-de-auto-multijugad-3ad7b-default-rtdb.firebaseio.com",
+  projectId: "juego-de-auto-multijugad-3ad7b",
+  storageBucket: "juego-de-auto-multijugad-3ad7b.appspot.com",
+  messagingSenderId: "767965055364",
+  appId: "1:767965055364:web:f597e3c80523ea9535b5d1"
+};
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
